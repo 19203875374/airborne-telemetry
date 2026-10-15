@@ -1,0 +1,445 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 158,
+      "sha256": "21376e88bb5f59056bc489fe6058e76e5fad8d93fff6653d4fe2b512d5ec51ea"
+    },
+    {
+      "path": ".gitignore",
+      "size": 381,
+      "sha256": "3d1b87e291dfb86368339097028b019832bda1eba02f8cc0b48188e81dc7de34"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1068,
+      "sha256": "8cc510aa6df65558f03c99bf4f0151c9c978e9dc15237a1e3efa028218581ce5"
+    },
+    {
+      "path": "README.md",
+      "size": 3546,
+      "sha256": "3c08cdb6f96f03f96ca9aba00364fb21d12d5e4709dce90e5e93ae32660bd2d0"
+    },
+    {
+      "path": "board/README.md",
+      "size": 589,
+      "sha256": "f3dce6b0f6e8b1cece4a20834216487c01bb48916c63f94938b3c2d38a4de749"
+    },
+    {
+      "path": "board/constraints/system_top.xdc",
+      "size": 17865,
+      "sha256": "82754a88d20800fd645a49ebb61ea839bb957a3ef6d9df92583e59385ef56959"
+    },
+    {
+      "path": "board/hardware_handoff.md",
+      "size": 994,
+      "sha256": "fde736362bcfc99298736ed4de8a850b99de92136eb77563f5711e0c57f76577"
+    },
+    {
+      "path": "board/ip/clk_pll_sys.xci",
+      "size": 96638,
+      "sha256": "2c0c060ebb5118270d9fdfdc864b48633a369d0fb98a80988d8c752c8eac281f"
+    },
+    {
+      "path": "board/ip/fifo_128x64.xci",
+      "size": 74692,
+      "sha256": "c9bf1e8b16c5d5ebd0d1681f7dd46b11267d7428a93f68f2e92bd2b16df763af"
+    },
+    {
+      "path": "board/ip/pll_ad9361.xci",
+      "size": 96971,
+      "sha256": "6c2cba7bd0fe74e8eaebdcfd2da10ede3c4643ea08c6c6d0258aa5712c879431"
+    },
+    {
+      "path": "board/ip/vio_trx_ctrl.xci",
+      "size": 108026,
+      "sha256": "b1a42b9e4d94287ec716985bd970ac87244cae120efd46d27c2a39eacf3d99b4"
+    },
+    {
+      "path": "build/README.md",
+      "size": 932,
+      "sha256": "6dc8987a4ffac04b7e1438880f401d831fc4c2ab949912b3d741e16b87251100"
+    },
+    {
+      "path": "build/audit_data.py",
+      "size": 4622,
+      "sha256": "4a8169db2d96857a620398037eaebf584a4d09fa7ee3aa7db3f38973dbe07588"
+    },
+    {
+      "path": "build/build_hardware.tcl",
+      "size": 2140,
+      "sha256": "c2cf8d7d1efd97d050c999b37718ee461bb12a705e80f671e8be876cac07a122"
+    },
+    {
+      "path": "build/check_release.py",
+      "size": 2870,
+      "sha256": "c9cf909b7c56be1a3d00924d12472bed2d986a1458ef52c3272b0615e40cbff6"
+    },
+    {
+      "path": "build/prepare.py",
+      "size": 4025,
+      "sha256": "92c2c4c4abe2aa59dceeaf8fff101414e1d6030ac66f3cd651871d0a3c4df688"
+    },
+    {
+      "path": "build/verify_replay.py",
+      "size": 1859,
+      "sha256": "2a944c75c7de49d5a9c94cf4043038ee35258080397a1aaae131b46614f4ae83"
+    },
+    {
+      "path": "data/README.md",
+      "size": 796,
+      "sha256": "d6f69233c144178871dcbdd216b63ada328223ed01f84b21c529b753e4044e85"
+    },
+    {
+      "path": "data/baseband_archived/pcm_net_mode_switch_iq.txt",
+      "size": 3576038,
+      "sha256": "e7af97f5daa40bf3af76a04ebebefd66f32b25493d8e4c9104a0677a84481e1a"
+    },
+    {
+      "path": "data/f_wave/f_bpsk.csv",
+      "size": 20541,
+      "sha256": "14fb5e304339cc41b62520de599e8d8259c2fa20dee0932e9b6369db16b1ce51"
+    },
+    {
+      "path": "data/f_wave/f_pcm_fm.csv",
+      "size": 20526,
+      "sha256": "7f144968ca05de8d2a70a577c1e5d3cf191b5d7eb40933fd3f4288282927ca05"
+    },
+    {
+      "path": "data/f_wave/f_qpsk.csv",
+      "size": 20531,
+      "sha256": "cb63c199e5276959648f15611cf3eec705eae5027f2f23aecf479fb2ec32cde8"
+    },
+    {
+      "path": "data/f_wave/f_soqpsk.csv",
+      "size": 20549,
+      "sha256": "d3fe8b97dcfcc858feb8c5f226ab227660d3604d79a40b1dc91da70084522bd9"
+    },
+    {
+      "path": "data/iq_wave/iq_bpsk.csv",
+      "size": 1138119,
+      "sha256": "9d5390716f946ef5eeb781d3840089f19a7f4db7c628ef24c25eda59d616ebc9"
+    },
+    {
+      "path": "data/iq_wave/iq_pcm_fm.csv",
+      "size": 1097042,
+      "sha256": "66b997169edaeb662f7dc5471e1f2e79fc9054ffe7e7e368aab3f819c001bebc"
+    },
+    {
+      "path": "data/iq_wave/iq_qpsk.csv",
+      "size": 1124240,
+      "sha256": "3206628a07309023af58558031847c262e2f9ba93cb9355cc6b3194c71be01f6"
+    },
+    {
+      "path": "data/iq_wave/iq_soqpsk.csv",
+      "size": 1096653,
+      "sha256": "8f35917dc7f1a97c47abef3fc92c37c9a22348692dc728dea768584893445102"
+    },
+    {
+      "path": "data/reference/audit_archived.json",
+      "size": 2328,
+      "sha256": "aed91d42118f80a1f0c17ab6d3a998ebaadda6c9eb15ff445e02ee989e626008"
+    },
+    {
+      "path": "report/collaboration_record.docx",
+      "size": 54867,
+      "sha256": "dca383550f383ddcfa10461e01c9248b744dbc2671b8757c7ca1487131b97b55"
+    },
+    {
+      "path": "report/open_source_release.md",
+      "size": 1516,
+      "sha256": "a02d7c5966776eddc76bcaf48e9b814685e5615e8d76f47cda99df6eb32ad09f"
+    },
+    {
+      "path": "report/project_summary.md",
+      "size": 1309,
+      "sha256": "ece760feb065f368f5e42f9f14fa7b253ed2e1e4b48548fb564b543e5e0b519b"
+    },
+    {
+      "path": "report/reproduction.md",
+      "size": 22310,
+      "sha256": "e1f41186bf6772a3019117b39421f3296408bf4d88206fdca3539abe287d64f2"
+    },
+    {
+      "path": "sim/README.md",
+      "size": 562,
+      "sha256": "a09bd8bbb701bdb4a327704d8b5a0cd8c982fa9e45bf3e46397b269b622a13da"
+    },
+    {
+      "path": "sim/run_baseband.tcl",
+      "size": 976,
+      "sha256": "f727aeb64ca93137a3214a16df8dddf974e8efe951cc95290e9a80a510633234"
+    },
+    {
+      "path": "sim/tb_pcm_net_mode_switch.v",
+      "size": 13970,
+      "sha256": "841b5822029f285aa0f5cd57f3a8ae128b76a1fb3fed0225087cb614109b480f"
+    },
+    {
+      "path": "sim/tb_psk_demod.v",
+      "size": 988,
+      "sha256": "96231c572fec924b2aaf1f43162ca952301eddff63a60890e792402f96fd3057"
+    },
+    {
+      "path": "skill/README.md",
+      "size": 11008,
+      "sha256": "79d2ae06c1f9d8c26f008f9220df5afa8cb74e727be90b73410d8205939bc472"
+    },
+    {
+      "path": "skill/pynq-overlay-preflight/SKILL.md",
+      "size": 1811,
+      "sha256": "604908c337420b44f938dcf22a37f5b0b6ff92085e1c244b888773828ca123a2"
+    },
+    {
+      "path": "skill/pynq-overlay-preflight/agents/openai.yaml",
+      "size": 303,
+      "sha256": "cec45038614de1fb69f9456642a7277a1764e648dd4f1bcd2754a7cb9d1beb32"
+    },
+    {
+      "path": "skill/pynq-overlay-preflight/assets/overlay_metadata_probe.py",
+      "size": 577,
+      "sha256": "c9bc2f86e4432d2070540e20ea393e3d90f283f61e48bf52dfa9b1f52bbbca0a"
+    },
+    {
+      "path": "skill/pynq-overlay-preflight/references/method.md",
+      "size": 1935,
+      "sha256": "212783130e0e9a7e2d85f688f3baf536ccd6279dbee811290b831b1af056174b"
+    },
+    {
+      "path": "skill/pynq-overlay-preflight/scripts/preflight_overlay.py",
+      "size": 2780,
+      "sha256": "e5ec14cb5417cb753f45957618c73b3a4dd13de771d83d3fc61b95baeb7b3aa3"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/SKILL.md",
+      "size": 3148,
+      "sha256": "93aa1b96293d96cd70c03cdc0563d4945a413c0f12ec2f5ad4ba294a6afdf7b4"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/agents/openai.yaml",
+      "size": 307,
+      "sha256": "98671373f591abc025964cbebe6aff4b6a130b753f85d47994e42e89dd8e0359"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/assets/demo_iq.csv",
+      "size": 105,
+      "sha256": "9c2834b32855863b78d78a099d421d55fad501781361c0d39a6df46841f9b427"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/assets/rebuild_checklist.md",
+      "size": 843,
+      "sha256": "a61b4df5f1183d4ea1154c425923ab12c85839d161c5ef84e4049b790336ed60"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/assets/review_record_template.md",
+      "size": 930,
+      "sha256": "54df35b5f4bfc81dd6e4254cf0133967a8fa54fd4eebb7deb6bd5f6439fd363c"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/references/data_contract.md",
+      "size": 2650,
+      "sha256": "f2bd105ce99c90b1c380b39449069e1d577e63ff99ef462555b2271b842cfa3f"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/references/lessons.md",
+      "size": 2830,
+      "sha256": "4c5f3205b0d79cca982e5bc382b49ce77260544ca009140b032512a036ca2fd5"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/references/pitfalls.md",
+      "size": 2594,
+      "sha256": "349be4469592070cbf0c7e553fc6058e2e970f8cda914a8ae344509636ab8fb3"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/references/workflows.md",
+      "size": 3562,
+      "sha256": "791e4bdded414e2de05a7b53bcadedfe88b5bc935e13b0141e2764c6f6318360"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/scripts/compare_golden.py",
+      "size": 2518,
+      "sha256": "0fd0f01fa1717fe7d8b0b9f0b2172bf02c1085ceab63fcf6f48b729ab031c8be"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/scripts/inspect_iq.py",
+      "size": 5350,
+      "sha256": "761bc619f47f922fd61daf90fdc63119136ecbf8c598142849dbfdf12af824a2"
+    },
+    {
+      "path": "skill/telemetry-evidence-review/scripts/release_manifest.py",
+      "size": 3237,
+      "sha256": "5e69d800187953a725079e25e438579723e80653a29d47c24722f50ea0526e29"
+    },
+    {
+      "path": "skill/validation/correction_trace.md",
+      "size": 1233,
+      "sha256": "530af2e13bfc607bedcbd4fa2eb13496fb5804928d128bcfeef797736c3ba84b"
+    },
+    {
+      "path": "skill/validation/forward_retest.json",
+      "size": 1123,
+      "sha256": "532b64a8ea81e440c90eb94da43ede97c22792bd96ce9bac8ef66534e8fa9156"
+    },
+    {
+      "path": "skill/validation/reuse_case_result.md",
+      "size": 11143,
+      "sha256": "ed46d6d7ee87a970aa792060afd40a41444ff6e9f6e769fab63d1451d0f804cd"
+    },
+    {
+      "path": "skill/validation/test_scripts.py",
+      "size": 6923,
+      "sha256": "d535b3b786053ce249999771bbfa225955d8dcdfa7f425a7efb50ba037506c7e"
+    },
+    {
+      "path": "src/README.md",
+      "size": 614,
+      "sha256": "d03c2ef2a5c7ba452d3f4621b41a8b07efcace9518bbebb615eb7517ebadbbd8"
+    },
+    {
+      "path": "src/matlab/load_rf_data.m",
+      "size": 22554,
+      "sha256": "cfb908e64f53c591794d5672120b451005ac77cd282e3fb4596cd2b1646d25f2"
+    },
+    {
+      "path": "src/matlab/reproduce_results.m",
+      "size": 3641,
+      "sha256": "d597a249ec6c2c499365bc740f55a64a4037dd5b33bacc1041bf182c7f14fcd0"
+    },
+    {
+      "path": "src/mem/freq_lut_rx.mem",
+      "size": 6087,
+      "sha256": "af083ee5d03c2b786e9f8c4a227f7d3352fc4657ada4a8eaefab08774179dfa5"
+    },
+    {
+      "path": "src/mem/freq_lut_tx.mem",
+      "size": 24087,
+      "sha256": "214e72ac4ccf804ca1e496c09ece6229926d121a4a0c1c7d8226881956c16c33"
+    },
+    {
+      "path": "src/mem/premod_coef.mem",
+      "size": 453,
+      "sha256": "e64fce6c4bda85c7bb832fe1a2266f8fbcf536a13f6c2f90cfede3a5b7478671"
+    },
+    {
+      "path": "src/mem/rrc_coef.mem",
+      "size": 819,
+      "sha256": "d4c791e0755bf5997148a2faf17dd687eec4c5b9b6d72a41dca6681e154f15b3"
+    },
+    {
+      "path": "src/mem/sine_lut.mem",
+      "size": 20547,
+      "sha256": "0fa890fe3d4ef6c1ea63fcba3217aaf9d3d7609c079471d2c7786726d4e89673"
+    },
+    {
+      "path": "src/mem/soqpsk_pulse.mem",
+      "size": 774,
+      "sha256": "b63d146e4d1aa84c537390a96ed4aa03e75b1f9aabd9bbe8d5317483bae63e79"
+    },
+    {
+      "path": "src/mem/tx_fir_coeff.mem",
+      "size": 3472,
+      "sha256": "e9c168e949e16d8e6f7d99c1d241996178fab9d0a4c078ee5f8edf19d0b365a9"
+    },
+    {
+      "path": "src/rtl/ad9361_cmos_rx_if.v",
+      "size": 1773,
+      "sha256": "e32055c5bae8299e1a252f80547694d6b357dd761c8436388867b1095a375105"
+    },
+    {
+      "path": "src/rtl/ad9361_cmos_tx_if.v",
+      "size": 3320,
+      "sha256": "983e8c7569187f9eb7c19efc4ef220540219e6b5d98c0f3f36a0fdd7288993d1"
+    },
+    {
+      "path": "src/rtl/ad9361_lut.v",
+      "size": 146261,
+      "sha256": "4cae7bfe7001c679fb58123072ae534a7c853426995975e19398e48172aefa5d"
+    },
+    {
+      "path": "src/rtl/ad9361_spi_ctrl.v",
+      "size": 31089,
+      "sha256": "fcfc7c5e4376c9e92a0a5e72df854ea4953c7438dbea9c5ff7ae4da1ad7ff1f1"
+    },
+    {
+      "path": "src/rtl/ad9361_spi_if.v",
+      "size": 2771,
+      "sha256": "3f9efcb5b838cf0a0e6f42a03f15a9e5ed54ca45b495fa5b6cc29dfd2d54c9fc"
+    },
+    {
+      "path": "src/rtl/fir_sym.v",
+      "size": 6283,
+      "sha256": "015ed6d2cac00b2d28db37b6b7a728349f261742ee01a81d34a93c07d168d32a"
+    },
+    {
+      "path": "src/rtl/multi_mode_baseband_tx.v",
+      "size": 6221,
+      "sha256": "98a1b292514fab3d38d8101862cb09b07c117c587bd123188d4b4e732ff071aa"
+    },
+    {
+      "path": "src/rtl/pcm_fm_mod.v",
+      "size": 2488,
+      "sha256": "fa71b0af49f0297212dd9f42dad2ac2627cc109ca83932061577cb0df0e0e415"
+    },
+    {
+      "path": "src/rtl/pcm_fm_top.v",
+      "size": 1426,
+      "sha256": "7106b7af0337aa1f765ee2a32927400f7fd921007a38705e829f77aee42a8b22"
+    },
+    {
+      "path": "src/rtl/premod_fir.v",
+      "size": 4051,
+      "sha256": "951d26ed9f199f11ab7e893583788e4e660d5b70caa46a8a858735f57ca60774"
+    },
+    {
+      "path": "src/rtl/psk_demod.v",
+      "size": 1652,
+      "sha256": "07c1b06618d68da7f92a7616a3e63987254bd66153c1f6e49d267ba18e3e79cc"
+    },
+    {
+      "path": "src/rtl/psk_mod.v",
+      "size": 2404,
+      "sha256": "aa35c6e2cb9d1278ff6ae028e185993fa05622be2bef9b5a49650e97c99e15ba"
+    },
+    {
+      "path": "src/rtl/reset_sync.v",
+      "size": 442,
+      "sha256": "aff399a1bf45c296c46e07e13be071123d0345866a617f0f17c25686ddc0fba9"
+    },
+    {
+      "path": "src/rtl/soqpsk_mod.v",
+      "size": 9057,
+      "sha256": "76b67ca6a253ca2c8277e2c9029528cea1d8f0ceffd2f6a427a518ad461fc14b"
+    },
+    {
+      "path": "src/rtl/soqpsk_precoder.v",
+      "size": 1613,
+      "sha256": "a9d179a93776e43e2e42009207b0667ce7aeb7875313b6f8d99355da311a2694"
+    },
+    {
+      "path": "src/rtl/system_top.v",
+      "size": 11814,
+      "sha256": "fd175c7dbde6bbdb1237b743e58a45b86478efef7857ced851e303b706b7badc"
+    },
+    {
+      "path": "third_party.md",
+      "size": 1466,
+      "sha256": "c9a701d2e485d9c016a876764d2edf046fa7de6f578055de1e580db354a70f86"
+    },
+    {
+      "path": "validation/README.md",
+      "size": 937,
+      "sha256": "b6fe69c42e80b54e5c721420533cbe68543cbe304339b90c72d60c15da1ed367"
+    },
+    {
+      "path": "validation/source_provenance.json",
+      "size": 10861,
+      "sha256": "2b465cde30eb8cd09b401653ff01152d4aa6cc5d4d1a2e0b7667202a497da136"
+    }
+  ],
+  "excluded_mutable_reports": [
+    "skill/validation/test_report.json",
+    "validation/input_manifest.json",
+    "validation/release_check.json"
+  ],
+  "note": "Exact byte identity only; not a hardware or legal verdict."
+}

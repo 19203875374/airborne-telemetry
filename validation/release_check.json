@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "release_layout": {
+    "passed": true,
+    "files": 90,
+    "largest_file_bytes": 3576038,
+    "errors": [],
+    "scope": "Release bytes, file layout and links only.",
+    "vivado_executed": false,
+    "matlab_executed": false,
+    "hardware_validated": false
+  },
+  "original_input_files_preserved": 43,
+  "new_workspace_preparation": "passed",
+  "all_16_rtl_work_copies_byte_identical": true,
+  "testbench_changes_only_output_paths": true,
+  "matlab_loader_changes_only_data_paths": true,
+  "archived_data_replay": "passed",
+  "archived_numeric_reference_comparison": "passed",
+  "skill_synthetic_regression": {
+    "tests": 25,
+    "passed": 25
+  },
+  "reproduction_steps": 20,
+  "credential_pattern_scan": "no matches in text inputs",
+  "vivado_executed": false,
+  "matlab_executed": false,
+  "hardware_validated": false,
+  "outstanding": [
+    "Board model/PCB, rated supply and wiring information",
+    "Vivado execution of the new source-only project route",
+    "MATLAB graphics execution",
+    "Full competition design report and demo video if required separately"
+  ]
+}

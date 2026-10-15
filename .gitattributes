@@ -1,0 +1,12 @@
+* text=auto
+*.v -text
+*.mem -text
+*.xdc -text
+*.xci -text
+*.csv -text
+*.txt -text
+*.docx binary
+*.m -text
+*.py text eol=lf
+*.tcl text eol=lf
+*.md text eol=lf

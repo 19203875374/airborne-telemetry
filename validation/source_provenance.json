@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-15",
+  "files": [
+    {
+      "path": "src/rtl/ad9361_cmos_rx_if.v",
+      "source": "2026-10-04 full FPGA archive: rtl/ad9361_cmos_rx_if.v",
+      "sha256": "e32055c5bae8299e1a252f80547694d6b357dd761c8436388867b1095a375105",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/ad9361_cmos_tx_if.v",
+      "source": "2026-10-04 full FPGA archive: rtl/ad9361_cmos_tx_if.v",
+      "sha256": "983e8c7569187f9eb7c19efc4ef220540219e6b5d98c0f3f36a0fdd7288993d1",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/ad9361_lut.v",
+      "source": "2026-10-04 full FPGA archive: rtl/ad9361_lut.v",
+      "sha256": "4cae7bfe7001c679fb58123072ae534a7c853426995975e19398e48172aefa5d",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/ad9361_spi_ctrl.v",
+      "source": "2026-10-04 full FPGA archive: rtl/ad9361_spi_ctrl.v",
+      "sha256": "fcfc7c5e4376c9e92a0a5e72df854ea4953c7438dbea9c5ff7ae4da1ad7ff1f1",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/ad9361_spi_if.v",
+      "source": "2026-10-04 full FPGA archive: rtl/ad9361_spi_if.v",
+      "sha256": "3f9efcb5b838cf0a0e6f42a03f15a9e5ed54ca45b495fa5b6cc29dfd2d54c9fc",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/fir_sym.v",
+      "source": "2026-10-04 full FPGA archive: rtl/fir_sym.v",
+      "sha256": "015ed6d2cac00b2d28db37b6b7a728349f261742ee01a81d34a93c07d168d32a",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/multi_mode_baseband_tx.v",
+      "source": "2026-10-04 full FPGA archive: rtl/multi_mode_baseband_tx.v",
+      "sha256": "98a1b292514fab3d38d8101862cb09b07c117c587bd123188d4b4e732ff071aa",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/pcm_fm_mod.v",
+      "source": "2026-10-04 full FPGA archive: rtl/pcm_fm_mod.v",
+      "sha256": "fa71b0af49f0297212dd9f42dad2ac2627cc109ca83932061577cb0df0e0e415",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/pcm_fm_top.v",
+      "source": "2026-10-04 full FPGA archive: rtl/pcm_fm_top.v",
+      "sha256": "7106b7af0337aa1f765ee2a32927400f7fd921007a38705e829f77aee42a8b22",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/premod_fir.v",
+      "source": "2026-10-04 full FPGA archive: rtl/premod_fir.v",
+      "sha256": "951d26ed9f199f11ab7e893583788e4e660d5b70caa46a8a858735f57ca60774",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/psk_demod.v",
+      "source": "2026-10-04 full FPGA archive: rtl/psk_demod.v",
+      "sha256": "07c1b06618d68da7f92a7616a3e63987254bd66153c1f6e49d267ba18e3e79cc",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/psk_mod.v",
+      "source": "2026-10-04 full FPGA archive: rtl/psk_mod.v",
+      "sha256": "aa35c6e2cb9d1278ff6ae028e185993fa05622be2bef9b5a49650e97c99e15ba",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/reset_sync.v",
+      "source": "2026-10-04 full FPGA archive: rtl/reset_sync.v",
+      "sha256": "aff399a1bf45c296c46e07e13be071123d0345866a617f0f17c25686ddc0fba9",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/soqpsk_mod.v",
+      "source": "2026-10-04 full FPGA archive: rtl/soqpsk_mod.v",
+      "sha256": "76b67ca6a253ca2c8277e2c9029528cea1d8f0ceffd2f6a427a518ad461fc14b",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/soqpsk_precoder.v",
+      "source": "2026-10-04 full FPGA archive: rtl/soqpsk_precoder.v",
+      "sha256": "a9d179a93776e43e2e42009207b0667ce7aeb7875313b6f8d99355da311a2694",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/rtl/system_top.v",
+      "source": "2026-10-04 full FPGA archive: rtl/system_top.v",
+      "sha256": "fd175c7dbde6bbdb1237b743e58a45b86478efef7857ced851e303b706b7badc",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/freq_lut_rx.mem",
+      "source": "2026-10-04 full FPGA archive: mem/freq_lut_rx.mem",
+      "sha256": "af083ee5d03c2b786e9f8c4a227f7d3352fc4657ada4a8eaefab08774179dfa5",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/freq_lut_tx.mem",
+      "source": "2026-10-04 full FPGA archive: mem/freq_lut_tx.mem",
+      "sha256": "214e72ac4ccf804ca1e496c09ece6229926d121a4a0c1c7d8226881956c16c33",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/premod_coef.mem",
+      "source": "2026-10-04 full FPGA archive: mem/premod_coef.mem",
+      "sha256": "e64fce6c4bda85c7bb832fe1a2266f8fbcf536a13f6c2f90cfede3a5b7478671",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/rrc_coef.mem",
+      "source": "2026-10-04 full FPGA archive: mem/rrc_coef.mem",
+      "sha256": "d4c791e0755bf5997148a2faf17dd687eec4c5b9b6d72a41dca6681e154f15b3",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/sine_lut.mem",
+      "source": "2026-10-04 full FPGA archive: mem/sine_lut.mem",
+      "sha256": "0fa890fe3d4ef6c1ea63fcba3217aaf9d3d7609c079471d2c7786726d4e89673",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/soqpsk_pulse.mem",
+      "source": "2026-10-04 full FPGA archive: mem/soqpsk_pulse.mem",
+      "sha256": "b63d146e4d1aa84c537390a96ed4aa03e75b1f9aabd9bbe8d5317483bae63e79",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/mem/tx_fir_coeff.mem",
+      "source": "separate TX FIR input",
+      "sha256": "e9c168e949e16d8e6f7d99c1d241996178fab9d0a4c078ee5f8edf19d0b365a9",
+      "byte_preserved": true
+    },
+    {
+      "path": "board/constraints/system_top.xdc",
+      "source": "2026-10-04 full FPGA archive: board XDC",
+      "sha256": "82754a88d20800fd645a49ebb61ea839bb957a3ef6d9df92583e59385ef56959",
+      "byte_preserved": true
+    },
+    {
+      "path": "board/ip/clk_pll_sys.xci",
+      "source": "2026-10-04 full FPGA archive: sources_1/ip/CLK_PLL_sys/CLK_PLL_sys.xci",
+      "sha256": "2c0c060ebb5118270d9fdfdc864b48633a369d0fb98a80988d8c752c8eac281f",
+      "byte_preserved": true
+    },
+    {
+      "path": "board/ip/pll_ad9361.xci",
+      "source": "2026-10-04 full FPGA archive: sources_1/ip/pll_ad9361/pll_ad9361.xci",
+      "sha256": "6c2cba7bd0fe74e8eaebdcfd2da10ede3c4643ea08c6c6d0258aa5712c879431",
+      "byte_preserved": true
+    },
+    {
+      "path": "board/ip/fifo_128x64.xci",
+      "source": "2026-10-04 full FPGA archive: sources_1/ip/fifo_128x64/fifo_128x64.xci",
+      "sha256": "c9bf1e8b16c5d5ebd0d1681f7dd46b11267d7428a93f68f2e92bd2b16df763af",
+      "byte_preserved": true
+    },
+    {
+      "path": "board/ip/vio_trx_ctrl.xci",
+      "source": "2026-10-04 full FPGA archive: vio_trx_ctrl/ip/vio_trx_ctrl/vio_trx_ctrl.xci",
+      "sha256": "b1a42b9e4d94287ec716985bd970ac87244cae120efd46d27c2a39eacf3d99b4",
+      "byte_preserved": true
+    },
+    {
+      "path": "sim/tb_pcm_net_mode_switch.v",
+      "source": "separately provided 1 ms mode-switch testbench; filename normalized only",
+      "sha256": "841b5822029f285aa0f5cd57f3a8ae128b76a1fb3fed0225087cb614109b480f",
+      "byte_preserved": true
+    },
+    {
+      "path": "sim/tb_psk_demod.v",
+      "source": "2026-10-04 full FPGA archive: legacy auxiliary RX testbench, not a receiver acceptance result",
+      "sha256": "96231c572fec924b2aaf1f43162ca952301eddff63a60890e792402f96fd3057",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/baseband_archived/pcm_net_mode_switch_iq.txt",
+      "source": "raw archived input: baseband_archived/pcm_net_mode_switch_iq.txt",
+      "sha256": "e7af97f5daa40bf3af76a04ebebefd66f32b25493d8e4c9104a0677a84481e1a",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/iq_wave/iq_qpsk.csv",
+      "source": "raw archived input: IQ_wave/iq_qpsk.csv",
+      "sha256": "3206628a07309023af58558031847c262e2f9ba93cb9355cc6b3194c71be01f6",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/iq_wave/iq_soqpsk.csv",
+      "source": "raw archived input: IQ_wave/iq_soqpsk.csv",
+      "sha256": "8f35917dc7f1a97c47abef3fc92c37c9a22348692dc728dea768584893445102",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/iq_wave/iq_bpsk.csv",
+      "source": "raw archived input: IQ_wave/iq_bpsk.csv",
+      "sha256": "9d5390716f946ef5eeb781d3840089f19a7f4db7c628ef24c25eda59d616ebc9",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/iq_wave/iq_pcm_fm.csv",
+      "source": "raw archived input: IQ_wave/iq_pcm_fm.csv",
+      "sha256": "66b997169edaeb662f7dc5471e1f2e79fc9054ffe7e7e368aab3f819c001bebc",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/f_wave/f_pcm_fm.csv",
+      "source": "raw archived input: F_wave/f_pcm_fm.csv",
+      "sha256": "7f144968ca05de8d2a70a577c1e5d3cf191b5d7eb40933fd3f4288282927ca05",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/f_wave/f_bpsk.csv",
+      "source": "raw archived input: F_wave/f_bpsk.csv",
+      "sha256": "14fb5e304339cc41b62520de599e8d8259c2fa20dee0932e9b6369db16b1ce51",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/f_wave/f_qpsk.csv",
+      "source": "raw archived input: F_wave/f_qpsk.csv",
+      "sha256": "cb63c199e5276959648f15611cf3eec705eae5027f2f23aecf479fb2ec32cde8",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/f_wave/f_soqpsk.csv",
+      "source": "raw archived input: F_wave/f_soqpsk.csv",
+      "sha256": "d3fe8b97dcfcc858feb8c5f226ab227660d3604d79a40b1dc91da70084522bd9",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/matlab/load_rf_data.m",
+      "source": "RF_IQ_dynamic_scatter.zip/load_rf_data.m",
+      "sha256": "cfb908e64f53c591794d5672120b451005ac77cd282e3fb4596cd2b1646d25f2",
+      "byte_preserved": true
+    },
+    {
+      "path": "src/matlab/reproduce_results.m",
+      "source": "previously delivered static MATLAB entry, unchanged",
+      "sha256": "d597a249ec6c2c499365bc740f55a64a4037dd5b33bacc1041bf182c7f14fcd0",
+      "byte_preserved": true
+    },
+    {
+      "path": "report/collaboration_record.docx",
+      "source": "previously delivered 12-page evidence-based collaboration history, unchanged",
+      "sha256": "dca383550f383ddcfa10461e01c9248b744dbc2671b8757c7ca1487131b97b55",
+      "byte_preserved": true
+    },
+    {
+      "path": "data/reference/audit_archived.json",
+      "source": "previously executed Python offline replay result",
+      "sha256": "aed91d42118f80a1f0c17ab6d3a998ebaadda6c9eb15ff445e02ee989e626008",
+      "byte_preserved": true
+    }
+  ],
+  "changes": [
+    "Only repository path names normalized for copied inputs.",
+    "build/audit_data.py: data directory strings changed from IQ_wave/F_wave to iq_wave/f_wave; calculations unchanged.",
+    "Workspace preparation changes only testbench export paths and MATLAB data-directory assignments."
+  ],
+  "not_redistributed": [
+    "Vivado vendor-generated HDL and simulation libraries",
+    "old build caches, journals, bitstreams and checkpoints",
+    "software installers",
+    "copyrighted standards full texts"
+  ],
+  "hardware_rebuild_executed": false
+}

@@ -1,0 +1,78 @@
+{
+  "baseband_source": "archived",
+  "baseband": {
+    "raw_rows": 126788,
+    "iq_fs_hz": 30720000.0,
+    "selection": "longest contiguous mode segment; trim zero endpoints only",
+    "modes": [
+      {
+        "mode": 0,
+        "selected_samples": 30786,
+        "sample_first": 256,
+        "sample_last": 31041,
+        "duration_ms": 1.0021484375,
+        "papr_db": 0.0026881021439651076
+      },
+      {
+        "mode": 1,
+        "selected_samples": 30912,
+        "sample_first": 31170,
+        "sample_last": 62081,
+        "duration_ms": 1.00625,
+        "papr_db": 0.002468038551681008
+      },
+      {
+        "mode": 2,
+        "selected_samples": 30912,
+        "sample_first": 62210,
+        "sample_last": 93121,
+        "duration_ms": 1.00625,
+        "papr_db": 3.8484594335528404
+      },
+      {
+        "mode": 3,
+        "selected_samples": 30912,
+        "sample_first": 93250,
+        "sample_last": 124161,
+        "duration_ms": 1.00625,
+        "papr_db": 3.7891817708023963
+      }
+    ]
+  },
+  "rf": [
+    {
+      "mode": "pcm_fm",
+      "samples": 30001,
+      "iq_fs_hz": 14999999.999999994,
+      "papr_db": 0.9405439532798847,
+      "amplitude_units": "original CSV voltage convention; no output-port calibration applied",
+      "instrument_obw_mhz": 2.78536115199995
+    },
+    {
+      "mode": "soqpsk",
+      "samples": 30001,
+      "iq_fs_hz": 14999999.999999994,
+      "papr_db": 0.9083810289545247,
+      "amplitude_units": "original CSV voltage convention; no output-port calibration applied",
+      "instrument_obw_mhz": 1.94577620515413
+    },
+    {
+      "mode": "bpsk",
+      "samples": 30001,
+      "iq_fs_hz": 14999999.999999994,
+      "papr_db": 4.432887242051623,
+      "amplitude_units": "original CSV voltage convention; no output-port calibration applied",
+      "instrument_obw_mhz": 2.7269167154971
+    },
+    {
+      "mode": "qpsk",
+      "samples": 30001,
+      "iq_fs_hz": 14999999.999999994,
+      "papr_db": 4.224932853210612,
+      "amplitude_units": "original CSV voltage convention; no output-port calibration applied",
+      "instrument_obw_mhz": 2.71581445868279
+    }
+  ],
+  "limits": "Offline replay and statistics only. No new RF acquisition or Vivado/MATLAB execution.",
+  "baseband_sha256": "e7af97f5daa40bf3af76a04ebebefd66f32b25493d8e4c9104a0677a84481e1a"
+}

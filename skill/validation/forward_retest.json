@@ -1,0 +1,32 @@
+{
+  "scope": "retained synthetic forward-case fixture; not real bitstream",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/1aabef080324/submission_skill/skill/pynq-overlay-preflight/scripts/preflight_overlay.py",
+    "--bit",
+    "/workspace/scratch/1aabef080324/reuse_case/design.bit",
+    "--hwh",
+    "/workspace/scratch/1aabef080324/reuse_case/design.hwh",
+    "--require-ip",
+    "/dsp/filter_0"
+  ],
+  "exit_code": 0,
+  "stdout": {
+    "static_checks_passed": true,
+    "module_names": [
+      "dsp/filter_0",
+      "processor"
+    ],
+    "missing_required_ip": [],
+    "sha256": {
+      "design.bit": "1ac431104315e9f79e2f48ef169d5dffb7465e360d1579d8729478d5d74b3cc0",
+      "design.hwh": "7f7b717b399f0cfbd89aa3782e6c6fa57d2c138f48edd98beefd5af58ee7cae1"
+    },
+    "hardware_validated": false,
+    "limits": [
+      "Does not prove bit/HWH originate from the same build.",
+      "Does not validate bitstream format, device part or board compatibility.",
+      "Does not exercise PYNQ parsers, clocks, DMA, MMIO or functionality."
+    ]
+  }
+}

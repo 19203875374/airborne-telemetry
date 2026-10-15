@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ Overlay 通用交付预检"
+  short_description: "对任意题目的PYNQ交付文件检查配对名称与元数据并保留验证边界"
+  default_prompt: "使用 $pynq-overlay-preflight 静态核查我的 Overlay 交付文件并说明哪些项目需要板上验证。"

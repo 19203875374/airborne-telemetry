@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Workspaces and generated output; reference evidence remains tracked.
+/work/
+/output/
+/logs/
+/build/work/
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.pb
+*.dcp
+*.bit
+*.ltx
+*.asv
+*.slxc
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+.Xil/
+
+# Local credentials
+.env
+.env.*
+*.pem
